@@ -1,0 +1,25 @@
+@media (max-width: 576px) {
+  .ra {
+    display: none;
+  }
+
+  .rb {
+    width: 100%;
+
+    .btn_c {
+      display: flex;
+      padding: 3px 32px 4px 32px !important;
+    }
+
+    .btn_d {
+      display: flex;
+      padding: 3px 17px 4px 17px !important;
+      letter-spacing: 1px;
+    }
+  }
+
+  .login_facebook_a,
+  .login_google_a {
+    margin-top: 3px;
+  }
+}

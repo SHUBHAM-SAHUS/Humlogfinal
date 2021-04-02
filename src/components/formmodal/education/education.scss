@@ -1,0 +1,79 @@
+@import "../../../style/common/globl";
+@import "../../../style/common/btn";
+.pp {
+    border: 2px solid red;
+    background-color: red;
+}
+
+.form-check-input {
+    border: 1px solid red;
+}
+
+.btn_bdr {
+    // position: absolute;
+    // bottom: 0;
+    // left:0;
+    width: 100%;
+    background-color: #ffff;
+    box-shadow: 2px 4px 8px 4px #ddd;
+}
+
+.tttle {
+    color: $light_blue;
+    font-size: 15px;
+}
+
+.pa,
+.pb {
+    color: #999999;
+    font-size: 15px;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+.detail_btn_ca {
+    width: 30%;
+    border: 1px solid $dark_blue;
+    outline: none;
+    padding: 0;
+    margin: 0;
+    color: $dark_blue;
+    font-size: 13px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 2px;
+    margin-left: 5px !important;
+    margin-right: 10px !important;
+}
+
+.lw {
+    width: 100%;
+}
+
+.detail_btn_cca {
+    width: 20%;
+    max-width: 25%;
+    min-width: 20%;
+    min-height: 30px;
+    font-size: 12px;
+    margin-right: 10px !important;
+    margin-left: 10px !important;
+}
+
+@media( max-width:400px) {
+    html .makeStyles-paper-4 {
+        padding: 16px 7px 24px 15px;
+    }
+    // .education-popup .d-flex{ display:inline-block !important; width: 100%;}
+    // .education-popup  .detail_btn_cca{ display: inline-block; width: 46% !important; margin:2%  2%  !important;}
+}
+
+@media( max-width:321px) {
+    html .makeStyles-paper-4 {
+        padding: 16px 3px 24px 9px;
+    }
+    // .education-popup .d-flex{ display:inline-block !important; width: 100%;}
+    // .education-popup  .detail_btn_cca{ display: inline-block; width: 46% !important; margin:2%  2%  !important;}
+}

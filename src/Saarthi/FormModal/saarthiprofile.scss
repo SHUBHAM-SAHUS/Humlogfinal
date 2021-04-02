@@ -1,0 +1,84 @@
+@import "../../../style/common/globl";
+@import "../../../style/common/btn";
+
+.prnl_head_aa{
+               color:$dark_blue;
+               font-size:15px;
+               font-weight:500;
+
+}
+
+.input_fld{
+       border:none;
+       outline:none;
+       border-bottom:1px solid $grey;
+}
+
+.lbl_a{
+    color:$grey;
+    font-size:15px;
+    //  color:$gey;
+}
+
+
+.detail_btn_ca{
+    width: 45% !important;
+    border: 1px solid $dark_blue;
+    outline: none;
+    padding:0;
+    margin:0;
+    color: $dark_blue;
+    font-size: 16px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .detail_btn_cm{
+    @extend .detail_btn_ca;
+    width:15%;
+
+  }
+
+
+
+
+.btn_bdr {
+    width: 100%;
+    background-color: #ffff;
+    box-shadow: 2px 4px 8px 4px #ddd;
+  }
+
+  .ftr{
+      @extend .btn_bdr;
+  }
+
+  .main_userinputprofile{
+    height:400px;
+    overflow:scroll;
+  }
+
+  .lw{
+     width:100%;
+  }
+.personal-info-form {
+  input[type="checkbox"]:checked+label {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    // font-weight: 600;
+    text-transform: capitalize;
+    background: linear-gradient(
+      90deg,
+      rgba(11, 159, 225, 1) 0%,
+      rgba(6, 120, 193, 1) 100%,
+    );
+    color:#fff;
+    // font-size:16px;
+  }
+
+}
+
+ 

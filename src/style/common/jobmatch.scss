@@ -1,0 +1,106 @@
+ @import "/globl.scss";
+//   @import "/style/common/globl.scss";
+.main_job{
+    width:100%;
+}
+
+.Job_ta{
+    padding:0;
+    margin:0;
+    font-size:16px;
+    font-weight:600;
+    color: #000000;
+    }
+
+.job_tb{
+     @extend .Job_ta;
+     font-size:10 !important;
+     font-weight:400;
+     } 
+     
+   .job_tc{
+          @extend .Job_ta;
+          font-size:10 !important;
+          font-weight:400;
+   }  
+
+   ._job_ua{
+           padding:0;
+           margin:0;
+           font-size:22px;
+           color:$light_blue;
+        }
+
+        ._job_ub{
+             @extend ._job_ua;
+             color:$dark_blue;
+            font-size:18px;
+            font-weight:500;
+            text-transform:capitalize;        
+            }
+
+            .ca{
+                color:$black;
+                font-size:18px;
+                 font-weight:500;
+                 text-transform:capitalize;
+            }
+
+          .btn_va{
+                
+                    text-transform: capitalize;
+                    // background-color:#ffff !important;
+                     padding: 4px 12px 4px  12px; 
+                    // background-color:#ffff;
+                    color:red;
+                    box-shadow:5px 5px 10px 10px #ddd;
+                    border-radius:20px;
+                    font-weight:500;
+                    outline:none;
+                    border:none;
+                    
+          }
+          
+          .btn_vb{
+                @extend .btn_va;
+                color:$light_blue;
+          }
+
+          .btn_vc{
+               @extend .btn_va;
+               color:#3BC106;
+          }
+
+
+          
+          .cross_icon{
+                 font-size:26px;
+                 color:#D32E2E;
+          }
+
+          .box_ia{
+                 display:flex;
+                 justify-content:center;
+                 align-items:center;
+                width:22px;
+                height:22px;
+                border-radius:50%;
+                background-color:$dark_blue;
+                color:$light_blue;
+            }
+
+            .box_ib{
+                    @extend .box_ia;
+                    background-color:#3BC106;
+            }
+
+            .job_pa{
+                  color:$white;
+                  font-size:13px;      
+            }
+
+            .job_pb{
+                  @extend .job_pa;
+            }
+
+

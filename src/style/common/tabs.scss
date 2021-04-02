@@ -1,0 +1,54 @@
+@import "./globl.scss";
+.dash_tabs {
+  width: 100%;
+  height: 42px;
+  background: linear-gradient(
+    90deg,
+    rgba(11, 159, 225, 1) 100%,
+    rgba(6, 120, 193, 1) 100%
+  );
+}
+
+.dash-tab .nav-tabs .nav-item.show .nav-link,
+.dash-tab .nav-tabs .nav-link.active {
+  border: none;
+  border-bottom: 2px solid #f6b217;
+  font-weight: 600;
+  color: red !important;
+  background: linear-gradient(
+    90deg,
+    rgba(11, 159, 225, 1) 100%,
+    rgba(6, 120, 193, 1) 100%
+  );
+}
+.dash-tab .nav-tabs .nav-link {
+    font-size: 15px;
+    font-weight: 500;
+    color: #fff !important;
+    border: none;
+    text-transform: capitalize;
+  }
+
+// .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+//     border:none;
+//     border-bottom:2px solid  #F6B217;
+//     font-weight:600;
+//      color: #fff !important;
+//     background: linear-gradient(90deg, rgba(11,159,225,1) 100%, rgba(6,120,193,1) 100%);
+
+// }
+
+.dash-tab .nav-tabs .nav-link {
+  font-size: 15px;
+  font-weight: 500;
+  color: #fbfbfb !important;
+  border: none;
+  text-transform: capitalize;
+}
+
+
+// .dash_tabs{
+//    width:100%;
+//   overflow-x:auto; 
+// }
+

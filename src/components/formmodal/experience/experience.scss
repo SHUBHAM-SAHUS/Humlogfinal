@@ -1,0 +1,55 @@
+ @import "../../../style/common/globl";
+.job_title{
+    font-size:12px;
+    font-weight:400;
+    color:#999999;
+}
+
+input[type="checkbox"]:checked + label .dbl {
+    display: block;
+}
+input[type="checkbox"]:checked + label .sgl {
+    display: none;
+}
+.dbl
+{
+    display: none;
+}
+
+.zero{
+    padding:0;
+    margin:0;
+}
+
+.lw{
+    width:100%;
+}
+
+.detail_btn_cpo {
+ @extend .zero;
+    width: 35%;
+    border: 1px solid $dark_blue;
+    outline: none;
+    
+    color: $dark_blue;
+    // font-size: 15px;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px !important;
+        margin-left: 2px !important;
+        max-height:50px;
+  
+  }
+
+
+
+
+.detail_btn_cca {
+    width: 33.33%;
+    min-height:30px;
+    font-size: 12px;
+    margin-right: 10px !important;
+    margin-left: 2px !important;
+  }

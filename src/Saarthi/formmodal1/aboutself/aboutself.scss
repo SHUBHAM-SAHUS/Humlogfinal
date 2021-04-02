@@ -1,0 +1,25 @@
+@import "../../../style/common/globl";
+
+
+
+
+.common_btn{
+    width:100%;
+  padding:2% 20%  2% 20%;
+  border:none;
+  border-radius:25px;
+background: linear-gradient(90deg, rgba(253,206,6,1) 0%, rgba(255,107,23,1) 100%);
+      //    background-color:red;
+      color:#fff;
+      font-weight:400;
+      font-size:20px;
+      outline:none !important;
+}
+
+.about_oa{
+ color:$dark_blue;
+ font-size:16px;
+}
+
+
+

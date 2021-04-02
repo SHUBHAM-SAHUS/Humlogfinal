@@ -1,0 +1,22 @@
+$dark_blue:#0678C1;
+$yellow:#F6B217;
+$orange:#FF6B17;
+$light_blue:#0B9FE1;
+$black :#000000;
+$white:#FFFFFF;
+
+$grey:#999999;
+// $blue:#0678C1;
+// $blue:#0678C1;
+// $blue:#0678C1;
+
+.sha{
+    box-shadow:0px 4px 8px 4px #ddd;
+}
+
+
+@media(max-width:768px){
+    .sha{
+        box-shadow:none;
+    }
+}

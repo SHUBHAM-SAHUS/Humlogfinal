@@ -1,0 +1,35 @@
+.td{
+    font-size:13px;
+    margin-top:3px;
+  }
+  
+//   .mtt{
+//     margin-top:4px;
+//   }
+  
+  @media(max-width:576px){
+    .td{
+       
+       font-size:11px !important;
+       
+    }
+  }
+
+  .pst{
+      position: relative;
+        widows: 100%;
+       
+  }
+
+  .eye{
+      position:absolute;
+      right:32px;
+       top:3px;
+       font-size:22px;
+       cursor: pointer;
+       color:grey;
+  }
+  .eye:hover{
+      color:black;
+
+  }

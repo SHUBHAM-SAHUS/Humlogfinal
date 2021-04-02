@@ -1,0 +1,83 @@
+  @import "../../../style/common/globl.scss";
+
+.main_head {
+  width: 100%;
+  background: linear-gradient(
+    90deg,
+    rgba(11, 159, 225, 1) 100%,
+    rgba(6, 120, 193, 1) 100%
+  );
+
+  .header_logo {
+    width: 150px;
+  }
+}
+
+.bars_icon {
+  position: absolute;
+  bottom: 7px;
+  right: 26px;
+  cursor: pointer;
+}
+
+.bar_iconn {
+  font-size: 25px;
+  color: #000000;
+}
+
+.setting_iconn{
+  font-size:16px;
+  color:#fff;
+}
+
+.close_icon {
+  @extend .bars_icon;
+}
+
+.close_iconn {
+  @extend .bar_iconn;
+  font-size: 30px;
+}
+
+.sidenavbar {
+  width: 0px;
+  height: 100vh !important;
+  position: fixed;
+  top: 0;
+  right: 0;
+  background-color: #fff;
+
+  z-index: 9999 !important;
+  overflow-x: hidden;
+  transition: all 0.5s;
+}
+
+.ttl_heading{
+  position: absolute;;
+  bottom:0;
+  left:10px;
+}
+
+.head_style_clr{
+  color:$white;
+  font-size:13px;
+  letter-spacing:1px;
+  text-transform:capitalize;
+}
+
+.bar_iconn{
+  display:none;
+}
+
+@media(max-width:576px){
+ 
+  // .bar_iconn{
+  //   display:block;
+  // }
+
+
+}
+
+.imgclr{
+  border-radius:50%;
+}

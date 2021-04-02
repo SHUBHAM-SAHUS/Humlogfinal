@@ -1,0 +1,157 @@
+@import "./mediauser";
+@import "../../../style/common/globl.scss";
+
+.zero{
+  padding:0 !important;
+  margin:0 !important;
+}
+
+
+.detail_main {
+  width: 100%;
+}
+
+.detail_icon_user {
+  color: $dark_blue;
+  font-size: 24px;
+
+
+}
+
+.detail_btn_a {
+  @extend .zero;
+  width: 30%;
+  border: 1px solid $dark_blue;
+  outline: none;
+  // padding: 2% 2% 2% 2%;
+  color: $dark_blue;
+  font-size: 15px;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.detail_btn_b {
+  @extend .detail_btn_a;
+}
+
+.user_check {
+  display: none;
+  width: 50px;
+  height: 100px;
+  border: 1px solid red;
+}
+
+.detail_btn_cca {
+  @extend .detail_btn_a;
+  @extend .zero;
+  // padding: 10px;
+  
+  width: 20%;
+  font-size: 12px;
+}
+
+.detail_btn_cbba {
+ @extend .detail_btn_a;
+ padding:0 !important;
+ margin:0 !important;
+  padding:0;
+ width: 20%;
+  // font-size: 12px;
+}
+
+.detail_btn_cc {
+  @extend .detail_btn_a;
+  // padding: 10px 25px 10px 25px;
+  width: 21%;
+  font-size: 12px;
+  
+}
+
+// start media query
+
+@media (max-width: 576px) {
+  .detail_btn_ca {
+    padding: 4px;
+    width: 20%;
+    font-size: 12px;
+  }
+
+  // .detail_btn_cc {
+  //   width: 30%;
+  //   border: 1px solid $dark_blue;
+  //   outline: none;
+  //   //  padding:1% 1% 1% 1%;
+  //   // padding: 8px 20px 8px 20px;
+  //   color: $dark_blue;
+  //   font-size: 15px;
+  //   font-weight: 500;
+  //   display: flex;
+  //   justify-content: center;
+  //   align-items: center;
+  // }
+}
+
+// end medi   QUERY
+
+aaa::active {
+  background-color:$dark_blue!important;
+}
+
+input[type="radio"]:checked+label {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  // font-weight: 600;
+  text-transform: capitalize;
+  background: linear-gradient(
+    90deg,
+    rgba(11, 159, 225, 1) 0%,
+    rgba(6, 120, 193, 1) 100%,
+  );
+  color:#fff;
+  width: 100%;
+  // font-size:16px;
+}
+
+.lw{
+   width:100%!important;
+
+}
+
+.sst{
+  margin-top:60px;
+}
+
+.grad{
+  margin:0;
+  padding:0;
+  font-size:11px;
+}
+
+.mrn{
+  margin-right:10px!important;
+}
+
+// .expp{
+//   font-size:13px;
+// }
+
+.oom{
+   font-size:13px;
+   text-align:left;
+   padding:0 !important;
+   margin:0;
+}
+
+
+.detail_btn_cca {
+  width: 33.33%;
+  min-height:30px;
+  font-size: 12px;
+  margin-right: 10px !important;
+  margin-left: 2px !important;
+}

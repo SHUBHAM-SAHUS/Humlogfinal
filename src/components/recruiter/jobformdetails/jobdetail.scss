@@ -1,0 +1,69 @@
+
+@import "../../../style/common/globl.scss";
+
+.iconn_pro{
+      font-size:20px;
+        color:$dark_blue;
+}
+
+.llbl{
+    color:black !important;
+    text-transform:capitalize;
+    font-size:13px;
+    font-weight:400 !important;
+}
+.cc{
+    color:$dark_blue;
+    font-size:18px;
+     font-weight:600;
+}
+
+.fw{
+       width:100%;
+}
+
+.lw{
+    width:100%
+}
+
+
+.detail_btn_cca {
+    width: 33.33%;
+    min-height:30px;
+    font-size: 12px;
+    margin-right: 10px !important;
+    margin-left: 2px !important;
+
+}
+
+
+.detail_btn_ccab {
+    width: 25%;
+    max-width:25%;
+    min-width:25%;
+    min-height:30px;
+    font-size: 12px;
+    // margin-right: 10px !important;
+    // margin-left: 2px !important;
+    border:1px solid #0678c1;
+    color:#0678c1;
+    text-align:center;
+  }
+  
+
+//   .detail_btn_ccb {
+//     width: 50%;
+//     min-height:25px;
+//     font-size: 12px;
+//     margin-right: 10px !important;
+//     margin-left: 2px !important;
+//   }
+
+
+.hidd{
+    display:hidden;
+}
+
+.MuiAutocomplete-inputRoot[class*="MuiOutlinedInput-root"] {
+    padding:2px;
+}

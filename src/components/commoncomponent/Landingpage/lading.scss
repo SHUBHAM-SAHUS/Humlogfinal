@@ -1,0 +1,166 @@
+.main_landing{
+    padding:0;
+    margin:0;
+}
+
+.va{
+    width:100%;
+    // background-color:#1a6d95;
+}
+
+.vb{
+     width:100%;
+     background-color:#fff;
+     z-index:10;
+}
+
+.btu{
+    
+
+    
+    width:100%;
+    background-color:#FF5733;
+    border:none;
+    outline:none;
+    border-radius:5px;
+    color:#fff;
+    font-size:21px;
+    font-weight:500;
+    margin-top:20px !important;
+    
+  
+    cursor: pointer;
+}
+
+.btuu{
+     @extend .btu;
+    background-color:#3E7BEE;
+}
+
+
+.bty{
+    
+
+//  background-color:#1a6d95;
+ 
+ font-size:18px;
+ font-weight:500;
+ color:#FF5733;
+ cursor: pointer;
+//  box-shadow:2px 2px 2px  #1a6d95;
+
+}
+
+
+.logo_bb {
+    color: #0678c1;
+    font-size: 15px;
+    font-weight: 400;
+    cursor: pointer;
+  }
+
+  .logo_cc {
+    @extend .logo_bb;
+    background: linear-gradient(
+      90deg,
+      rgba(255, 107, 23, 1) 0%,
+      rgba(246, 178, 23, 1) 100%
+    );
+    background-clip: text;
+    color: transparent;
+  }
+
+
+
+
+//    start media
+
+@media(max-width:576px)
+{
+    .btu{
+       
+        width:70% !important;
+        font-size:16px;
+        font-weight:500;
+   }
+  
+   .ttr{
+       margin-top:22px;
+   }
+
+   .logo_bb {
+    
+    font-size: 12px;
+    font-weight: 400;
+  }
+
+  .logo_cc {
+
+    font-size: 12px;
+    font-weight: 400;
+  }
+
+  .landing_icon{
+    width:25px !important ;
+}
+
+.landing_pdd{
+  padding-left: 16% !important;
+  padding-right:16% !important;
+    
+}
+
+}
+
+//  end media
+
+
+.hht{
+     width:100%;
+}
+
+
+
+.landing_icon{
+    width:40px;
+    cursor: pointer;
+}
+
+.landing_pdd{
+   padding-left: 30%;
+   padding-right:30%;
+     
+}
+
+.staff_k{
+  margin-top:18px !important;
+}
+
+.mrg{
+  margin-top:85px;
+}
+
+
+// @media(min-width:1600px){
+
+//   .btu{
+//     width:100% !important;
+//     font-weight:500;
+//     font-size:45px;
+//     padding-right:20px;
+//     padding-left:20px;
+    
+// }
+  
+// .btuu{
+//   width:100% !important;
+//   font-weight:500;
+//  background-color:#3E7BEE;
+//  font-size:45px;
+//  padding-right:20px;
+//  padding-left:20px;
+
+// }
+
+
+// }

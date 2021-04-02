@@ -1,0 +1,81 @@
+.login_facebook_ta{
+    font-size:16px;
+    color:#3C5A99;
+}
+
+.login_google_ta{
+    font-size:16px;
+ }
+
+ 
+ .btn_cp {
+
+     width:30%;
+    border:1px solid #ccc;
+    font-size:15px;
+    cursor: pointer;
+  }
+
+  .btn_dp {
+       width:30%;
+    letter-spacing: 1px;
+    border:1px solid #ccc;
+    font-size:15px;
+    cursor: pointer;
+  }
+
+
+@media(max-width:576px){
+
+    .btn_cp {
+
+        width:42%;
+  
+     }
+   
+     .btn_dp {
+          width:42%;
+    
+     }
+
+
+
+}
+
+.fce{
+      width:30%;
+      max-height:100px;
+
+}
+
+
+.kep-login-facebook {
+  padding: 10px 10px !important;
+  width: 160px !important;
+  font-size: 11px !important;
+}
+.Google-btn{
+  width: 160px;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.5) !important;
+}
+.Google-btn div{ padding: 5px 10px 6px !important;}
+.Google-btn span{ padding: 7px 10px 6px !important; font-weight: 600 im !important; font-size:16px;}
+
+.fce{
+     width:25px !important;
+     max-height:80px !important;
+}
+@media(max-width:380px){
+  .kep-login-facebook {
+    padding: 10px 10px !important;
+    width: 120px !important;
+    font-size: 8px !important;
+  }
+  .Google-btn{
+      width: 120px;
+  }
+  .Google-btn span{
+    padding: 3px 0px 3px !important;
+    font-size:11px !important;
+  }
+}

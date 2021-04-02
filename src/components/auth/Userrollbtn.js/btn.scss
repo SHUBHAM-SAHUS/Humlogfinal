@@ -1,0 +1,42 @@
+ @import "../../../style/common/globl";
+.bto {
+   border: none;
+   outline: none;
+   padding: 10px 16px;
+   background-color: #f1f1f1;
+   cursor: pointer;
+   font-size: 18px;
+ }
+
+
+.active, .bto:hover {
+   background-color:red;
+   color: white;
+ }
+
+
+ .btn_a {
+  font-size: 20px;
+  color: #fff;
+  font-weight: 300;
+  font-size: 15px;
+  cursor: pointer;
+  border: none;
+  padding: 4px 40px 4px 40px;
+  // padding:3px 40px 4px 40px;
+  border-radius: 4px;
+  background: linear-gradient(
+    90deg,
+    rgba(6, 120, 193, 1) 0%,
+    rgba(11, 159, 225, 1) 100%
+  
+  );
+}
+
+.btn_b {
+  @extend .btn_a;
+  background: none;
+  // border: 2px solid $dar_blue;
+  color: $light_blue;
+  font-size: 13px;
+}

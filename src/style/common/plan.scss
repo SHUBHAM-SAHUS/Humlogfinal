@@ -1,0 +1,22 @@
+@import "./globl.scss";
+
+.plan_aa {
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.plan-tab .nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+  border: none;
+  border-bottom: 2px solid #f6b217;
+  font-weight: 600;
+  color: $dark_blue !important;
+}
+
+.plan-tab .nav-tabs .nav-link {
+  font-size: 15px;
+  font-weight: 500;
+  color: $light_blue !important;
+  border: none;
+  text-transform: capitalize;
+}

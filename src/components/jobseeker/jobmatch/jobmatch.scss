@@ -1,0 +1,139 @@
+@import "../../../style/common/globl";
+
+.main_job{
+    width:100%;
+}
+
+.Job_ta{
+ 
+    font-size:14px;
+    font-weight:600;
+    color: #000000;
+    word-wrap:break-word;
+    max-width:100px;
+    
+
+    }
+
+
+    .Job_ttb{
+         @extend .Job_ta;
+         font-weight:400;
+         word-wrap:break-word;
+         width:100px;
+     
+        
+    }
+.job_tb{
+     @extend .Job_ta;
+     font-size:10 !important;
+     font-weight:400;
+     } 
+     
+   .job_tc{
+          @extend .Job_ta;
+          font-size:10 !important;
+          font-weight:400;
+   }  
+
+   ._job_ua{
+           padding:0;
+           margin:0;
+           font-size:22px;
+           color:$light_blue;
+        }
+
+        ._job_ub{
+             @extend ._job_ua;
+             color:$dark_blue;
+            font-size:13px;
+            font-weight:500;
+            text-transform:capitalize;        
+            }
+
+            .ca{
+                color:$black;
+                font-size:14px;
+                 font-weight:400;
+                 text-transform:capitalize;
+            }
+
+            .ch{
+                 @extend .ca;
+                 font-size:13px;
+            }
+
+          .btn_va{
+                
+                    text-transform: capitalize;
+                    // background-color:#ffff !important;
+                     padding: 4px 10px 4px  10px; 
+                    background-color:#EE2323;
+                    color:white;
+                    border-radius:16px;
+                    font-weight:500;
+                    outline:none !important;
+                    border:none !important;
+                    font-size:10px;
+                    
+                    
+          }
+          
+          .btn_vb{
+                @extend .btn_va;
+                padding: 4px 10px 4px  10px; 
+                background-color: #33A8FF ;
+                color: white;
+          }
+
+          .btn_vc{
+               @extend .btn_va;
+               background-color:#4ABF37;
+               color: white;
+               padding: 6px 10px 4px  10px; 
+          }
+
+
+          
+          .cross_icon{
+                 font-size:26px;
+                 color:white;
+          }
+
+          .box_ia{
+                 display:flex;
+                 justify-content:center;
+                 align-items:center;
+                width:22px;
+                height:22px;
+                border-radius:50%;
+                background-color: white;
+                
+            }
+
+            .box_ib{
+                    @extend .box_ia;
+                    background-color: white;
+            }
+
+            .job_pa{
+                  color:#33A8FF;
+                  font: size 7px !important;
+                      
+            }
+
+            .job_pb{
+                 color: #4ABF37;
+                  @extend .job_pa;
+            }
+
+
+            .skiils_width{
+                word-wrap: break-word;
+                width:100px;
+            }
+
+            .jobResponse {
+                 padding-left: 4px;
+                 margin-top: 4px;
+            }

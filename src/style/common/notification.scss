@@ -1,0 +1,50 @@
+@import "/globl.scss";
+
+.main_notification {
+    width: 100%;
+    background-color: #FFEFE5;
+    //    background-color:red ;
+}
+
+
+.noti_user {
+    font-size: 12px;
+    font-weight: 400;
+    text-align: left;
+}
+
+.btn_noti {
+    padding: 4px;
+    border: 1px solid $light_blue;
+    text-transform: capitalize;
+    font-weight: 400;
+    color: $light_blue;
+}
+
+.user_ua,
+.user_ub,
+.user_uc {
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: left;
+}
+
+.user_nme {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+
+
+.post_time {
+    font-size: 10px;
+    color: grey;
+    text-align: center;
+
+}
+
+.fnt_icon {
+    font-size: 15px !important;
+}

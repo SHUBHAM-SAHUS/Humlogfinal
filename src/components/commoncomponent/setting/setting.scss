@@ -1,0 +1,41 @@
+ @import "../../../style/common/globl";
+.setting_op {
+     padding:0;
+     margin:0;
+    width: 48%;
+    border: 1px solid $dark_blue;
+    outline: none;
+    // padding: 2% 2% 2% 2%;
+    color: $dark_blue;
+    font-size: 15px;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+
+.setting_pp{
+      @extend .setting_op;
+      width:100%;
+      border: 1px solid $dark_blue;
+        }
+
+        .setting_pp:hover{
+          @extend .setting_op;
+           background-color:$dark_blue;
+           color:#fff;
+            }    
+            
+            .back_icon{
+              font-size:20px;
+            }
+
+    .bg_cll{
+      background: linear-gradient(
+        90deg,
+        rgba(11, 159, 225, 1) 0%,
+        rgba(6, 120, 193, 1) 100%,
+      );
+      color:#fff;
+    }

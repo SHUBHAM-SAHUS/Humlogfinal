@@ -1,0 +1,139 @@
+@import "../../../../../style/common/globl.scss";
+@import "./var";
+@import "../../../../../style/common/btn.scss";
+@import "loginmedia.scss";
+
+.main_login {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+
+  .login_aa {
+    width: 100%;
+    // padding-top:100px;
+    // padding: 10% 10% 0% 10%;
+  }
+
+  .logo_bb {
+    color: #0678c1;
+    font-size: 15px;
+    font-weight: 400;
+  }
+
+  .logo_cc {
+    @extend .logo_bb;
+    background: linear-gradient(
+      90deg,
+      rgba(255, 107, 23, 1) 0%,
+      rgba(246, 178, 23, 1) 100%
+    );
+    background-clip: text;
+    color: transparent;
+  }
+
+  .btn_a {
+    font-size: 20px;
+    color: #fff;
+    font-weight: 300;
+    font-size: 15px;
+    border: none;
+    // padding: 4px 30px 4px 30px;
+    // padding:3px 40px 4px 40px;
+    border-radius: 4px;
+    text-align:center;
+    background: linear-gradient(
+      90deg,
+      rgba(6, 120, 193, 1) 0%,
+      rgba(11, 159, 225, 1) 100%
+    );
+  }
+
+  .btn_b {
+    @extend .btn_a;
+    background: none;
+    border: 2px solid $dar_blue;
+    color: $light_blue;
+    font-size: 13px;
+  
+  }
+
+
+  .btn_cc{
+    @extend .btn_a;
+    background: none;
+    border: 2px solid $dar_blue;
+    color: $light_blue;
+    // color:red;
+    font-size: 13px;
+    padding: 4px 52px 4px 50px !important;
+
+  }
+
+  .fnt {
+    font-size: 18px;
+    font-weight: 300;
+  }
+}
+
+.login_input {
+  width: 100%;
+  border: 1px solid #ccc;
+  outline: none;
+  padding-left: 5%;
+  // text-transform: capitalize;
+  font-size: 13px;
+}
+
+.tc{
+  font-size:13px;
+}
+
+.mtt{
+  margin-top:6px;
+}
+
+@media(max-width:576px){
+  .tc{
+     
+     font-size:11px !important;
+     margin-bottom:1px;
+  }
+}
+
+.tnc_alrt{
+    font-size:14px;
+}
+
+.cursor_otp{
+  cursor: pointer;
+}
+
+
+.login_ba{
+  font-size:23px;
+  font-weight:300;
+ }
+
+.btn_c{
+   border:1px solid #ccc;
+   padding:4px  11% 4px 6% !important;
+   color:black;
+    font-weight:400;
+    font-size:15px;
+    background-color:#fff;
+    outline:none;
+  }
+
+
+
+
+
+.btn_d{
+  @extend .btn_c;
+  padding:1%  6% 1% 6%;
+}
+
+.pxx{
+  padding-Left:20%;
+  padding-right:20%;
+}
